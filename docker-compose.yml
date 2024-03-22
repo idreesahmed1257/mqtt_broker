@@ -4,4 +4,3 @@ services:
     build: ./aedes_broker
     ports:
       - "5007:5007"
-      - "5060:5060"
