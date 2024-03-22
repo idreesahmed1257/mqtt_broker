@@ -1,7 +1,8 @@
 FROM node:20-alpine
 WORKDIR /usr/src/app
 COPY package*.json ./
-EXPOSE 5004
+EXPOSE 5007
+EXPOSE 5060
 RUN npm install
 COPY . .
 CMD ["node", "server.js"]
