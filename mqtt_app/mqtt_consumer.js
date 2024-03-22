@@ -1,7 +1,7 @@
 const mqtt = require("mqtt");
 
 // const brokerUrl = "mqtt://test.mosquitto.org";
-// const brokerUrl = "mqtt://localhost:5004";
+const brokerUrl = "mqtt://localhost:5007";
 // const brokerUrl = "mqttbroker.bdata.ca:5007";
 const topic = "LINUX_LOGS"; // Replace with your desired MQTT topic
 
